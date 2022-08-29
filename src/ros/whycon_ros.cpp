@@ -1,6 +1,8 @@
 #include <camera_info_manager/camera_info_manager.h>
 #include <fstream>
 #include <sensor_msgs/CameraInfo.h>
+#include <opencv2/imgproc/imgproc_c.h>
+#include <opencv2/core/types_c.h>
 #include <tf/tf.h>
 #include <sstream>
 #include <geometry_msgs/PoseArray.h>

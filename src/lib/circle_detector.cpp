@@ -1,5 +1,7 @@
 #include <cstdio>
 #include <whycon/circle_detector.h>
+#include <opencv2/imgproc/imgproc_c.h>
+#include <opencv2/core/types_c.h>
 using namespace std;
 
 #define min(a,b) ((a) < (b) ? (a) : (b))
